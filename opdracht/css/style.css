@@ -1,0 +1,150 @@
+body { 
+	font-family: 'Lato', sans-serif;
+	margin: auto;
+	padding: auto;
+	background-color: #FFF;
+}
+
+#container{
+    width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.header {
+	background-color: #FFFFFF;
+	grid-column: 2/4;
+	grid-row: 1/2;
+}
+ 
+img[src="../img/logo.png"] {
+	background-color: transparent;
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+img[src="../img/banner.jpg"] {
+	grid-column: 1/3;
+	grid-row: 2/3;
+	margin: 20px 10px 20px 30px;
+
+}
+
+ul>li {
+	display: inline-block;
+	padding: 0px 15px;
+	grid-column: 3/4;
+	grid-row: 1/2;
+	text-decoration-color: black;
+}
+
+.banner{
+	background: url(../img/banner_bg.png);
+	grid-row: 2/3;
+	grid-column: 1/4;
+	height: 400px;
+	padding-right: 320px;
+}
+
+.tekst-banner{
+	margin: 20px;
+	background-color: transparent;
+	color: black;
+	padding-right: 30px;
+	grid-column: 3/4;
+	grid-row: 2/2;
+
+}
+
+.fade-slider{
+	margin-top: 20px;
+	grid-column: 1/2;
+	grid-row: 4/5;
+	width: 70%;
+}
+
+.nivo-slider{
+	margin-top: 20px;
+	grid-column: 2/3;
+	grid-row: 4/5;
+	width: 85%;
+	margin: 25px;
+}
+
+.bonus-slider{
+	margin-top: 20px;
+	grid-column: 3/4;
+	grid-row: 4/5;
+	width: 75%;
+}
+
+.footer{
+	grid-column: 1/4;
+	grid-row: 6/6;
+	width: 1100px;
+	height: 20px;
+}
+
+.menu-container ul li{
+	display: inline-block;
+	color: #A4A4A4;
+	font-weight: bold;
+	margin-left: 30px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.menu-container ul li a{
+	text-decoration: none;
+	color: #A4A4A4;
+	font-weight: bold;
+}
+
+.grid-container{
+	width: 1100px;
+	margin: 0 auto;
+	display: grid;
+	background: url("../img/header_bg.png");
+	background-repeat: repeat-x;
+	grid-template-columns: 366px 367px 366px; 
+	grid-template-rows: auto auto auto auto auto;
+}
+
+img[src="../img/nivo-slider.png"] {
+	grid-column: 1/3;
+	grid-row: 2/3;
+	margin: 20px 10px 20px 30px;
+}
+
+.tekst-banner2{
+	margin: 40px;
+	background-color: transparent;
+	color: black;
+	padding-right: 40px;
+	grid-column:3/4;
+	grid-row: 2/2;
+}
+
+.lorem1 {
+	grid-column: 3/4;
+	grid-row: 2/3;
+	margin: 10px 20px 20px 10px;
+	text-align: justify;
+	color: #fff
+}
+
+.header ul li a{
+	text-decoration: none;
+	color: #A4A4A4;
+	font-weight: bold;
+}
+
+.header ul li{
+	display: inline-block;
+	color: #A4A4A4;
+	font-weight: bold;
+	margin-left: 20px;
+	font-size: 14px;
+	margin-top: 30px;
+}
